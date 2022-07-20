@@ -76,3 +76,83 @@ body {
     animation-name: btn-animation;
     animation-duration: 2s;
 }
+.blog{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 700px;
+    border:1px solid red;
+    margin-top: 150px;
+    display: flex;
+}
+.blog-menu{
+    background-color: black;
+    height: 330px;
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin: 0 auto;
+}
+.blog-menu ul{
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+    padding-top:20px;
+}
+.blog-menu ul li{
+    list-style-type: none;
+    margin: 0 auto;
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.first-option {
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.second-option{
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.third-option{
+    background-color: tomato;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.blog-article{
+    border:1px solid blue;
+    width: 80%;
+    display: flex;
+}
+.blog{
+    /* display: flex; */
+}
+.article{
+    border:1px solid silver;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.article-btn{
+    margin-left: 4%;
+    background-color: white;
+    color: black;
+    border: 1px solid #333;
+    font-size: 15px;
+    margin-top: 16px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.article-title, .article-description{
+    margin-left:4%;
+}
+
