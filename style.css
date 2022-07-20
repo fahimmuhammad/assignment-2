@@ -1,9 +1,24 @@
 body{
-    margin: 0 auto;
-    width:80%;
+    font-family: 'Roboto', sans-serif;
 }
-div{
-    background: red;
-    height: 500px;
-    
+.header{
+    width: 90%;
+    margin: 0 auto;
+    margin-top:60px;
+    height: 700px;
+    background-color: black;
+    border-radius: 20px; 
+    display: flex;
+}
+.header-text, .header-image{
+    width: 50%;
+}
+.header-text{
+    color: white;
+}
+.header-text h1{
+    font-size: 100px;
+}
+.banner-image{
+    margin-top:30px;
 }
