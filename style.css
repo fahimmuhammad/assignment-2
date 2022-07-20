@@ -151,6 +151,9 @@ a{
     font-weight: 700;
     font-size: 20px;
 }
+.bonus{
+    display: none;
+}
 
 footer{
     background-color: #333;
@@ -250,6 +253,19 @@ footer ul li{
         grid-template-columns: auto auto;
         margin-top: -120px;
     }
+    .bonus{
+        text-align: center;
+        display: block;
+    }
+    .view-all{
+        background-color: red;
+        color: white;
+        border: 0px;
+        border-radius: 3px;
+        font-size: 40px;
+        margin-top: 30px;
+        padding: 5px 10px;
+    }
     footer{
         width: 100%;
     }
@@ -307,6 +323,9 @@ footer ul li{
         display: grid;
         grid-template-columns: auto;
         margin-top: 100px;
+    }
+    .bonus{
+        display: none;
     }
     footer{
         width: 100%;
