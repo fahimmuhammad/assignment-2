@@ -181,3 +181,135 @@ footer ul li{
     font-size: 50px;
     color: white;
 }
+
+/* Responsive CSS */
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+    body{
+        margin: 0 auto;
+    }
+    .header{
+        width: 90%;
+        display: flex;
+    }
+    .header-text, .header-image{
+        width: 50%;
+    }
+    .header-text h1{
+        font-size: 3em;
+    }
+    .header-text h4{
+        font-size: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .header-btn{
+        padding: 5px 5px;
+    }
+    .header-btn a, .arrow{
+        font-size: 10px;
+    }
+    .banner-image{
+        width: 100%;
+        
+    }
+    #blog{
+        width: 90%;
+        display: block;
+        
+    }
+    .blog-menu{
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .blog-menu ul{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 0;
+    }
+    .blog-menu ul li{
+        font-size: 15px;
+        margin-bottom: 185px;
+        margin-right: 10px;
+    }
+    .first-item, .second-item{
+        border: 1px solid silver;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: -120px;
+    }
+    footer{
+        width: 100%;
+    }
+    .social-icon{
+        font-size: 30px;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 480px){
+    
+    .header{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:auto;
+    }
+    .header-text{
+        width: 100%;
+        text-align: center;
+    }
+    .header h1{
+        margin-left: 61px;
+        font-size: 30px;
+    }
+    .header h4{
+        margin-left: 20px;
+    }
+    .header-btn{
+        margin: 0 auto;
+        margin-left: -20px;
+    }
+    .banner-image{
+        margin: 0;
+        margin-top: 21px;
+        margin-left: 18px;
+    }
+    #blog{
+        margin-top:50px;
+    }
+    .second-item{
+        border:1px solid silver;
+    }
+    .blog-menu ul{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: -36px;
+    }
+    .blog-menu ul li{
+        margin-bottom: 5px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 100px;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer-txt ul li{
+        display: block;
+        margin-bottom: 20px;
+    }
+}

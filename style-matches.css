@@ -30,3 +30,30 @@
 .match-card ul li{
     list-style-type: none;
 }
+
+
+/* Tablet Styles */
+
+@media only screen and (max-width: 768px){
+    #third-item{
+        border: 1px solid silver;
+    }
+    
+    #container-card{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .match-card ul{
+        margin-left: -15px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #container-card{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .match-card ul{
+        margin-left:45px
+    }
+}
