@@ -1,0 +1,9 @@
+body{
+    margin: 0 auto;
+    width:80%;
+}
+div{
+    background: red;
+    height: 500px;
+    
+}
