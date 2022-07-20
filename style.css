@@ -15,10 +15,36 @@ body{
 }
 .header-text{
     color: white;
+    padding-left: 8%;
+    padding-top: 4%;
 }
 .header-text h1{
-    font-size: 100px;
+    font-size: 80px;
+    margin-bottom: 0;
+    width: 60%;
+}
+.header-text h4{
+    font-weight: 100;
+    width: 80%;
 }
 .banner-image{
     margin-top:30px;
+    margin-left: -100px;
+}
+.header-btn{
+    background: tomato;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.header-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.arrow{
+    font-size: 17px;
+    color: white;
+    margin-left: 10px;
 }
